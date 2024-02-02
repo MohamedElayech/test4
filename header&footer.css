@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #2866B8;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 10% 40% 30% 10%;
+    grid-column-gap:  2%;
+    align-items: center;
+    margin:0;
+}
+
+.nav_page {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.nav_page:hover {
+    text-decoration: underline white ;
+}
+.nav_image{
+    height: 90px;
+    width:auto;
+    margin-left: 30%;
+}
+.nav_button{
+    background-color: #2866B8;
+    color: white;
+    padding: 8px 10px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+}
+#nav_buttons{
+    margin-right: 3%;
+}
+.nav_button:hover{
+    background-color: #ca563f;
+}
+.nav.container{
+    padding-left: 100px;
+}
+
+
+/* footer style */
+
+footer{
+    margin: 0;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flogo{
+    width: 100px;
+    height: auto;
+}
+.ficons{
+    margin-left: 60px;
+}
+.ficons a{
+    height: 30px;
+    width: 30px;
+}
+.ficons img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 8px;
+}
+.felm{
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 10px 50px;
+}
+.felm1{
+    line-height: 50px;
+
+}
+.flocation{
+    text-align: center;
+}
+.fline{
+    color: gray;
+    text-decoration: none;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #2866B8;
+    margin: 0;
+    padding: 10px;
+}
+.fb1{
+    display: flex;
+    flex-direction: row;
+}
+.fbutton{
+    background-color: #2866B8;
+    color: white ;
+    font-weight: bold;
+    padding: 15px;
+    border: 0;
+    margin-left: 0;
+}
+.fbutton:hover{
+    background-color:#173d6e ;
+}
+.fmail{
+    padding: 14px;
+    margin-top: 20px;
+    margin-right: 0;
+    border:1px solid #2866B8;
+    border-right: 0;
+}
+.flogo{
+    margin: 15px 25%;
+    background-color: black;
+}
